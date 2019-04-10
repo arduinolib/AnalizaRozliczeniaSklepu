@@ -1,0 +1,90 @@
+object Form11: TForm11
+  Left = 206
+  Top = 427
+  Width = 403
+  Height = 177
+  Caption = 'Wartosc kosztu'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 387
+    Height = 139
+    Align = alClient
+    Color = clMoneyGreen
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 8
+      Top = 16
+      Width = 98
+      Height = 16
+      Caption = 'Rodzaj kosztu'
+    end
+    object Label2: TLabel
+      Left = 248
+      Top = 16
+      Width = 106
+      Height = 16
+      Caption = 'Wartosc kosztu'
+    end
+    object Edit1: TEdit
+      Left = 8
+      Top = 40
+      Width = 217
+      Height = 24
+      TabOrder = 0
+    end
+    object Edit2: TEdit
+      Left = 248
+      Top = 40
+      Width = 129
+      Height = 24
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 32
+      Top = 72
+      Width = 113
+      Height = 41
+      Caption = 'Dodaj'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 2
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 208
+      Top = 72
+      Width = 115
+      Height = 41
+      Caption = 'Wyjd'#378
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 3
+      OnClick = Button2Click
+    end
+  end
+end
